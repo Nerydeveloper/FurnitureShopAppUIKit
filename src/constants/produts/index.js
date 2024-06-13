@@ -1,0 +1,148 @@
+const products = [
+    {
+        id:1,
+        nome:'Cadeira',
+        preco:'203,50',
+        image: require('./../images/cadeira.jpg'),
+        categori:'Cozinha',
+    },
+    {
+        id:2,
+        nome:'Cama bonita',
+        preco:'300,90',
+        image: require('./../images/cama01.jpg'),
+        categori:'Quarto',
+    },
+    {
+        id:3,
+        nome:'Cama de casal',
+        preco:'890,99',
+        image: require('./../images/cama02.jpg'),
+        categori:'Quarto',
+    },
+    {
+        id:4,
+        nome:'Cama Grande',
+        preco:'789,90',
+        image: require('./../images/cama03.jpg'),
+        categori:'Quarto',
+    },
+    {
+        id:5,
+        nome:'Cama de Luxo',
+        preco:'5.000,89',
+        image: require('./../images/cama04.jpg'),
+        categori:'Quarto',
+    },
+    {
+        id:6,
+        nome:'Cama confortável',
+        preco:'820,10',
+        image: require('./../images/cama05.jpg'),
+        categori:'Quarto',
+    },
+    {
+        id:7,
+        nome:'Fone de ouvido Inalámbricos',
+        preco:'89,90',
+        image: require('./../images/foneDeOuvidoInalambricos.jpg'),
+        categori:'Eletronicos',
+    },
+    {
+        id:8,
+        nome:'Fone de Ouvido - Lenovo',
+        preco:'170.90',
+        image: require('./../images/foneDeOuvidoLenovo.jpg'),
+        categori:'Eletronicos',
+    },
+    {
+        id:9,
+        nome:'Carregador e Luminaria - Google',
+        preco:'300,10',
+        image: require('./../images/googleSomAssistente.jpg'),
+        categori:'Eletronicos',
+    },
+    {
+        id:10,
+        nome:'Jaro',
+        preco:'56,99',
+        image: require('./../images/jaro.jpg'),
+        categori:'Decoração',
+    },
+    {
+        id:11,
+        nome:'Luminaria',
+        preco:'99,00',
+        image: require('./../images/luminariaLua.jpg'),
+        categori:'Decoração',
+    },
+    {
+        id:12,
+        nome:'Mesa de Qualidade',
+        preco:'209,90',
+        image: require('./../images/mesademadeira.jpg'),
+        categori:'Cozinha',
+    },
+    {
+        id:13,
+        nome:'Escrivaninha para escritorio',
+        preco:'247,89',
+        image: require('./../images/mesaEscritorioEscrivaninha.jpg'),
+        categori:'Quarto',
+    },
+    {
+        id:14,
+        nome:'Suporte para Talheres',
+        preco:'25,00',
+        image: require('./../images/suporteParaTalheres.jpg'),
+        categori:'Cozinha',
+    },
+    {
+        id:15,
+        nome:'Caixa de Som 260htz UBL',
+        preco:'187,90',
+        image: require('./../images/ublCaixaDeSom.jpg'),
+        categori:'Eletronicos',
+    },
+    {
+        id:16,
+        nome:'Mini unificador de Ar',
+        preco:'107,23',
+        image: require('./../images/umificadorMini.jpg'),
+        categori:'Quarto',
+    },
+    {
+        id:17,
+        nome:'Umificador de Ar 100% melhor qualidade',
+        preco:'10,00',
+        image: require('./../images/variosUmificadoresMini.jpg'),
+        categori:'Quarto',
+    },
+
+]
+export const ofertas = [
+    {
+        id:1,
+        nome:'Cadeira',
+        describle:'Esta oferta é imperdivel, venha logo aproveitar',
+        image: require('./../images/cadeira.jpg'),
+        categori:'Cozinha',
+    },
+    {
+        id:2,
+        nome:'Cama bonita',
+        describle:'Esta oferta é imperdivel, venha logo aproveitar',
+        image: require('./../images/cama01.jpg'),
+        categori:'Quarto',
+    },
+    {
+        id:3,
+        nome:'Cama de casal',
+        describle:'Esta oferta é imperdivel, venha logo aproveitar',
+        image: require('./../images/cama02.jpg'),
+        categori:'Quarto',
+    },
+
+
+]
+export default products;
